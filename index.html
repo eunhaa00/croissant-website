@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CROISSANT — 오리가미 자세교정 쿠션</title>
+  <meta name="description" content="크루아상은 오리가미 구조를 활용한 자세교정 쿠션입니다. 기대지 마세요, 소중한 자세가 눌리지 않도록. 접으면 납작하게, 펼치면 든든하게." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+KR:wght@300;400;600&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== 네비게이션 ========== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">CROISSANT</a>
+      <ul class="nav-links">
+        <li><a href="#story">스토리</a></li>
+        <li><a href="#features">특징</a></li>
+        <li><a href="#how-it-works">사용법</a></li>
+        <li><a href="#before-after">효과</a></li>
+        <li><a href="#colors">컬러</a></li>
+      </ul>
+      <button id="menu-btn" class="menu-btn" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#story">스토리</a>
+      <a href="#features">특징</a>
+      <a href="#how-it-works">사용법</a>
+      <a href="#before-after">효과</a>
+      <a href="#colors">컬러</a>
+    </div>
+  </nav>
+
+  <!-- ========== 히어로 ========== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="images/메인 사용장면.jpg" alt="크루아상 자세교정 쿠션 사용 장면" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">ORIGAMI POSTURE CUSHION</p>
+      <h1 class="hero-title">
+        <span class="hero-title-kr">기대지 마세요</span>
+        <span class="hero-title-sub">소중한 자세가 눌리지 않도록</span>
+      </h1>
+      <p class="hero-desc">
+        크루아상은 오리가미 구조에서 영감을 얻은 자세교정 쿠션입니다.<br />
+        접으면 지갑 속에, 펼치면 척추를 세워줍니다.
+      </p>
+      <a href="#features" class="hero-cta" id="hero-cta-btn">제품 알아보기</a>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ========== 브랜드 스토리 ========== -->
+  <section id="story" class="story">
+    <div class="story-inner container">
+      <div class="story-text">
+        <p class="section-eyebrow">BRAND STORY</p>
+        <h2 class="section-title">빵은 눌리면 안 되잖아요.</h2>
+        <p class="story-body">
+          카페에서 막 구워 나온 바삭한 크루아상처럼,<br />
+          당신의 자세도 눌리면 안 됩니다.<br /><br />
+          하루 종일 의자에 기대고 구부정하게 앉아 있다면<br />
+          척추는 천천히 무너지고 있을지도 모릅니다.<br /><br />
+          크루아상은 말합니다. <strong>"기대지 말고, 세우세요."</strong><br />
+          소중한 자세가 눌리지 않도록.
+        </p>
+      </div>
+      <div class="story-visual">
+        <div class="story-img-wrap">
+          <img src="images/부풀린후.png" alt="크루아상 제품 전개된 모습" class="story-img" loading="lazy" />
+        </div>
+        <div class="story-badge">
+          <span>ORIGAMI</span>
+          <span>STRUCTURE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 핵심 특징 ========== -->
+  <section id="features" class="features">
+    <div class="container">
+      <p class="section-eyebrow center">FEATURES</p>
+      <h2 class="section-title center">접고, 펼치고, 앉는다</h2>
+
+      <div class="features-grid">
+        <div class="feature-card" id="feature-1">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="32,8 56,52 8,52" stroke="currentColor" stroke-width="2" fill="none"/>
+              <polygon points="32,20 46,44 18,44" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">오리가미 구조</h3>
+          <p class="feature-desc">종이접기 원리를 적용해 면과 면이 맞물리며 하중을 분산시킵니다. 단단하지 않아도 척추를 세워줄 수 있는 이유입니다.</p>
+        </div>
+
+        <div class="feature-card" id="feature-2">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="8" width="40" height="6" rx="1" stroke="currentColor" stroke-width="2"/>
+              <rect x="16" y="18" width="32" height="6" rx="1" stroke="currentColor" stroke-width="2" opacity="0.7"/>
+              <rect x="20" y="28" width="24" height="6" rx="1" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+              <rect x="24" y="38" width="16" height="6" rx="1" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">얇게 접어 수납</h3>
+          <p class="feature-desc">사용하지 않을 때는 납작하게 접어 가방 어디에든 넣을 수 있습니다. 지갑 크기로 줄어드는 자세교정 솔루션.</p>
+        </div>
+
+        <div class="feature-card" id="feature-3">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 18 L32 32 L44 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">언제 어디서나</h3>
+          <p class="feature-desc">사무실, 카페, 도서관, 이동 중 차 안까지. 펼치는 데 3초, 접는 데 3초. 언제 어디서든 올바른 자세를 유지하세요.</p>
+        </div>
+
+        <div class="feature-card" id="feature-4">
+          <div class="feature-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 12 C20 12 12 22 12 32 C12 42 20 52 32 52" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 12 C44 12 52 22 52 32 C52 42 44 52 32 52" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+              <circle cx="32" cy="32" r="6" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">자연스러운 지지</h3>
+          <p class="feature-desc">과도하게 교정하지 않습니다. 몸이 스스로 자연스러운 S자 곡선을 기억할 수 있도록 부드럽게 유도합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <p class="section-eyebrow center">HOW IT WORKS</p>
+      <h2 class="section-title center">오리가미처럼, 펼치면 됩니다</h2>
+
+      <div class="steps-wrap">
+        <div class="step" id="step-1">
+          <div class="step-num">01</div>
+          <div class="step-img-wrap">
+            <img src="images/부풀리지전.png" alt="크루아상 접혀 있는 상태" loading="lazy" />
+          </div>
+          <div class="step-text">
+            <h3>접은 상태로 가방에</h3>
+            <p>납작하게 접히는 오리가미 구조 덕분에 어떤 가방에도 쏙 들어갑니다.</p>
+          </div>
+        </div>
+
+        <div class="step-arrow">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M8 20H32M32 20L22 10M32 20L22 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+
+        <div class="step" id="step-2">
+          <div class="step-num">02</div>
+          <div class="step-img-wrap">
+            <img src="images/펼침후.jpg" alt="크루아상 펼쳐진 상태" loading="lazy" />
+          </div>
+          <div class="step-text">
+            <h3>3초 만에 펼치기</h3>
+            <p>양쪽을 벌리면 오리가미 구조가 스스로 형태를 잡아줍니다.</p>
+          </div>
+        </div>
+
+        <div class="step-arrow">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M8 20H32M32 20L22 10M32 20L22 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+
+        <div class="step" id="step-3">
+          <div class="step-num">03</div>
+          <div class="step-img-wrap">
+            <img src="images/메인 사용장면.jpg" alt="크루아상 사용 장면" loading="lazy" />
+          </div>
+          <div class="step-text">
+            <h3>등에 대고 자세 교정</h3>
+            <p>의자와 등 사이에 놓으면 척추가 자연스럽게 세워집니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 사용 전후 비교 ========== -->
+  <section id="before-after" class="before-after">
+    <div class="container">
+      <p class="section-eyebrow center">BEFORE & AFTER</p>
+      <h2 class="section-title center">차이가 보이실 겁니다</h2>
+
+      <div class="ba-tabs" id="ba-tabs">
+        <button class="ba-tab active" id="tab-office" data-target="office">사무실 직장인</button>
+        <button class="ba-tab" id="tab-student" data-target="student">수험생</button>
+      </div>
+
+      <div class="ba-panels">
+        <!-- 사무실 -->
+        <div class="ba-panel active" id="panel-office">
+          <div class="ba-compare">
+            <div class="ba-card before">
+              <div class="ba-label">BEFORE</div>
+              <img src="images/사용전후비교/사용전_사무실.png" alt="사용 전 사무실 자세" loading="lazy" />
+              <div class="ba-caption">
+                <span class="ba-icon bad">✕</span>
+                허리가 구부정하고 목이 앞으로 쏠린 자세
+              </div>
+            </div>
+            <div class="ba-divider">
+              <div class="ba-divider-line"></div>
+              <span>VS</span>
+              <div class="ba-divider-line"></div>
+            </div>
+            <div class="ba-card after">
+              <div class="ba-label">AFTER</div>
+              <img src="images/사용전후비교/사용후_사무실.png" alt="사용 후 사무실 자세" loading="lazy" />
+              <div class="ba-caption">
+                <span class="ba-icon good">✓</span>
+                허리가 곧게 세워지고 시선이 자연스럽게 정면을 향함
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 수험생 -->
+        <div class="ba-panel" id="panel-student">
+          <div class="ba-compare">
+            <div class="ba-card before">
+              <div class="ba-label">BEFORE</div>
+              <img src="images/사용전후비교/사용전_수험생.png" alt="사용 전 수험생 자세" loading="lazy" />
+              <div class="ba-caption">
+                <span class="ba-icon bad">✕</span>
+                장시간 공부로 어깨가 굽고 척추에 부담 가중
+              </div>
+            </div>
+            <div class="ba-divider">
+              <div class="ba-divider-line"></div>
+              <span>VS</span>
+              <div class="ba-divider-line"></div>
+            </div>
+            <div class="ba-card after">
+              <div class="ba-label">AFTER</div>
+              <img src="images/사용전후비교/사용후_수험생.jpg" alt="사용 후 수험생 자세" loading="lazy" />
+              <div class="ba-caption">
+                <span class="ba-icon good">✓</span>
+                허리가 안정적으로 지지되어 집중력과 체력 유지
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 수납 편의 ========== -->
+  <section class="storage-section">
+    <div class="storage-inner container">
+      <div class="storage-visual">
+        <img src="images/수납 용이 강조.png" alt="크루아상 가방 수납 장면" loading="lazy" />
+      </div>
+      <div class="storage-text">
+        <p class="section-eyebrow">PORTABILITY</p>
+        <h2 class="section-title">가방 속에 넣어두는<br />자세 교정사</h2>
+        <p class="storage-body">
+          크루아상은 접으면 지갑보다 얇습니다.<br />
+          매일 들고 다니는 가방 속에 자세 교정 솔루션을 담으세요.<br /><br />
+          이동 중에도, 카페에서도, 어디서든<br />꺼내 쓸 수 있는 유일한 오리가미 쿠션입니다.
+        </p>
+        <ul class="storage-features">
+          <li>
+            <span class="sf-dot"></span>
+            납작하게 접어 어떤 가방에도
+          </li>
+          <li>
+            <span class="sf-dot"></span>
+            가벼운 소재로 부담 없이 휴대
+          </li>
+          <li>
+            <span class="sf-dot"></span>
+            3초 전개, 3초 수납
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 컬러 & 소재 ========== -->
+  <section id="colors" class="colors-section">
+    <div class="container">
+      <p class="section-eyebrow center">COLOR & MATERIAL</p>
+      <h2 class="section-title center">당신의 스타일로 맞추세요</h2>
+      <p class="colors-desc center">기본 컬러부터 고급 소재까지, 크루아상은 다양한 취향에 맞게 선택할 수 있습니다.</p>
+
+      <div class="color-gallery" id="color-gallery">
+        <div class="color-item active" id="color-yellow" data-name="Basic Yellow" data-desc="따뜻한 황금빛 크루아상의 시그니처 컬러" data-img="images/Color and material variations/basic_yellow.png">
+          <img src="images/Color and material variations/basic_yellow.png" alt="베이직 옐로우" loading="lazy" />
+          <div class="color-name">Basic Yellow</div>
+        </div>
+        <div class="color-item" id="color-white" data-name="Basic White" data-desc="어디에나 어울리는 클린한 화이트" data-img="images/Color and material variations/basic_white.png">
+          <img src="images/Color and material variations/basic_white.png" alt="베이직 화이트" loading="lazy" />
+          <div class="color-name">Basic White</div>
+        </div>
+        <div class="color-item" id="color-charcoal" data-name="Basic Charcoal" data-desc="도시적인 감성의 차콜 그레이" data-img="images/Color and material variations/basic_chacol.png">
+          <img src="images/Color and material variations/basic_chacol.png" alt="베이직 차콜" loading="lazy" />
+          <div class="color-name">Basic Charcoal</div>
+        </div>
+        <div class="color-item" id="color-blue" data-name="Basic Blue" data-desc="생동감 넘치는 스카이 블루" data-img="images/Color and material variations/basic_blue.png">
+          <img src="images/Color and material variations/basic_blue.png" alt="베이직 블루" loading="lazy" />
+          <div class="color-name">Basic Blue</div>
+        </div>
+        <div class="color-item" id="color-leather" data-name="Leather" data-desc="프리미엄 가죽 소재의 고급스러운 질감" data-img="images/Color and material variations/Leather.png">
+          <img src="images/Color and material variations/Leather.png" alt="레더" loading="lazy" />
+          <div class="color-name">Leather</div>
+        </div>
+        <div class="color-item" id="color-mesh" data-name="Mesh" data-desc="통기성이 뛰어난 메쉬 소재" data-img="images/Color and material variations/Mesh.png">
+          <img src="images/Color and material variations/Mesh.png" alt="메쉬" loading="lazy" />
+          <div class="color-name">Mesh</div>
+        </div>
+        <div class="color-item" id="color-cotton" data-name="Pure Cotton" data-desc="부드럽고 자연스러운 순면 소재" data-img="images/Color and material variations/Pure Cotton.png">
+          <img src="images/Color and material variations/Pure Cotton.png" alt="퓨어 코튼" loading="lazy" />
+          <div class="color-name">Pure Cotton</div>
+        </div>
+        <div class="color-item" id="color-fur" data-name="Soft Fur" data-desc="겨울에도 따뜻한 소프트 퍼 소재" data-img="images/Color and material variations/soft fur.png">
+          <img src="images/Color and material variations/soft fur.png" alt="소프트 퍼" loading="lazy" />
+          <div class="color-name">Soft Fur</div>
+        </div>
+      </div>
+
+      <div class="color-preview" id="color-preview">
+        <div class="cp-info">
+          <span class="cp-name" id="cp-name">Basic Yellow</span>
+          <span class="cp-desc" id="cp-desc">따뜻한 황금빛 크루아상의 시그니처 컬러</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA 섹션 ========== -->
+  <section class="cta-section" id="cta">
+    <div class="cta-inner container">
+      <div class="cta-deco">
+        <img src="images/부풀린후.png" alt="크루아상 제품" class="cta-product-img" loading="lazy" />
+      </div>
+      <div class="cta-text">
+        <p class="section-eyebrow">GET YOURS</p>
+        <h2 class="cta-title">오늘부터<br />자세를 세우세요</h2>
+        <p class="cta-sub">기대지 말고 소중한 빵이 눌리지 않게,<br />크루아상이 당신의 척추를 지켜드립니다.</p>
+        <div class="cta-buttons">
+          <a href="#colors" class="cta-btn primary" id="cta-primary-btn">지금 구매하기</a>
+          <a href="#story" class="cta-btn secondary" id="cta-secondary-btn">브랜드 스토리</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 푸터 ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">CROISSANT</span>
+          <p>오리가미 자세교정 쿠션</p>
+        </div>
+        <div class="footer-tagline">
+          <p>"기대지 마세요.</p>
+          <p>소중한 자세가 눌리지 않도록."</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 CROISSANT. All rights reserved.</span>
+        <span>Origami Posture Cushion</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
