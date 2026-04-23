@@ -21,8 +21,8 @@
   --gray-5: #EBEBEB;
 
   /* 타이포그래피 */
-  --font-serif: 'Cormorant Garamond', 'Noto Serif KR', Georgia, serif;
-  --font-sans: 'Outfit', 'Apple SD Gothic Neo', sans-serif;
+  --font-display: 'DM Sans', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+  --font-sans: 'DM Sans', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
 
   /* 간격 */
   --section-pad: 120px;
@@ -42,6 +42,7 @@ html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
   font-family: var(--font-sans);
+  letter-spacing: -0.01em;
   background: var(--off-white);
   color: var(--ink);
   overflow-x: hidden;
@@ -85,7 +86,7 @@ ul { list-style: none; }
 }
 
 .nav-logo {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -243,7 +244,7 @@ ul { list-style: none; }
 }
 
 .hero-title-kr {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: clamp(3.2rem, 7vw, 6rem);
   font-weight: 300;
   line-height: 1.05;
@@ -252,10 +253,10 @@ ul { list-style: none; }
 }
 
 .hero-title-sub {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: clamp(1.1rem, 2.5vw, 1.6rem);
   font-weight: 300;
-  font-style: italic;
+  font-style: normal;
   color: var(--gold-pale);
   letter-spacing: 0.05em;
 }
@@ -338,7 +339,7 @@ ul { list-style: none; }
 }
 
 .section-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: clamp(2rem, 4.5vw, 3.2rem);
   font-weight: 300;
   line-height: 1.2;
@@ -372,7 +373,7 @@ ul { list-style: none; }
 }
 
 .story-body strong {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--gold-dark);
 }
 
@@ -447,7 +448,7 @@ ul { list-style: none; }
 }
 
 .feature-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 400;
   color: var(--ink);
@@ -486,7 +487,7 @@ ul { list-style: none; }
 }
 
 .step-num {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 3.5rem;
   font-weight: 300;
   color: rgba(212,160,23,0.25);
@@ -513,7 +514,7 @@ ul { list-style: none; }
 .step:hover .step-img-wrap img { transform: scale(1.04); }
 
 .step-text h3 {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 400;
   color: var(--white);
@@ -559,7 +560,7 @@ ul { list-style: none; }
   background: transparent;
   border: none;
   cursor: pointer;
-  font-family: var(--font-sans);
+  font-family: var(--font-display);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   color: var(--gray-2);
@@ -644,9 +645,9 @@ ul { list-style: none; }
   align-items: center;
   gap: 12px;
   color: var(--gray-3);
-  font-family: var(--font-serif);
-  font-size: 1.1rem;
-  font-style: italic;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-style: normal;
 }
 
 .ba-divider-line {
@@ -784,7 +785,7 @@ ul { list-style: none; }
 }
 
 .cp-name {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 400;
   color: var(--ink);
@@ -840,7 +841,7 @@ ul { list-style: none; }
 .cta-text .section-eyebrow { color: var(--gold-light); }
 
 .cta-title {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: clamp(2.4rem, 5vw, 4rem);
   font-weight: 300;
   color: var(--white);
@@ -868,7 +869,7 @@ ul { list-style: none; }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   transition: all 0.4s var(--ease);
-  font-family: var(--font-sans);
+  font-family: var(--font-display);
 }
 
 .cta-btn.primary {
@@ -911,7 +912,7 @@ ul { list-style: none; }
 }
 
 .footer-logo {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 0.2em;
@@ -927,9 +928,9 @@ ul { list-style: none; }
 }
 
 .footer-tagline p {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  font-style: italic;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-style: normal;
   color: rgba(255,255,255,0.4);
   line-height: 1.8;
   text-align: right;
